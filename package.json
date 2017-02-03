@@ -22,6 +22,10 @@
   },
   "homepage": "https://github.com/valtech-nyc/unit-testing-playground#readme",
   "devDependencies": {
+    "wdio-mocha-framework": "^0.5.8",
+    "wdio-selenium-standalone-service": "0.0.7",
+    "wdio-webpack-service": "^1.0.1",
+    "webdriverio": "^4.6.2",
     "webpack": "^2.2.1"
   }
 }
