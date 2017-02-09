@@ -4,7 +4,7 @@
   "description": "unit testing playground",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "wdio wdio.conf.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/valtech-nyc/unit-testing-playground#readme",
   "devDependencies": {
+    "selenium-standalone": "^6.0.1",
     "wdio-mocha-framework": "^0.5.8",
     "wdio-selenium-standalone-service": "0.0.7",
     "wdio-webpack-service": "^1.0.1",
